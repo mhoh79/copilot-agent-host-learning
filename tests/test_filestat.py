@@ -6,7 +6,8 @@ from pathlib import Path
 
 import pytest
 
-from filestat import DirStats, format_size, scan_directory
+from filestat import DirStats, scan_directory
+from filestat_utils import format_size
 
 
 # ---------------------------------------------------------------------------
